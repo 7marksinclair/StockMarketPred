@@ -5,3 +5,4 @@ pandas-datareader
 tensorflow==2.7.0
 streamlit==1.6.0
 yfinance==0.1.70
+scikit-learn
