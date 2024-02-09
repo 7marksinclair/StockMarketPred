@@ -68,7 +68,7 @@ data_training_array = scaler.fit_transform(data_training)
 
 #Loading model
 
-model = load_model('keras_model.h5')
+model = load_model('keras_model.h5', custom_objects={'CustomAdam': CustomAdam})
 
 #Testing part
 
